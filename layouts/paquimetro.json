@@ -23,17 +23,23 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.6099999999999999
+    "zoomFactor": 0.37000000000000094
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "tocou",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
       "height": 622,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "baseReguaPac",
       "persistentUuid": "abbb250c-2fef-4759-b339-621c11b46b67",
       "width": 1320,
@@ -49,7 +55,7 @@
       "customSize": true,
       "height": 551,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "nanio",
       "persistentUuid": "24f417d0-1292-4dbf-8b68-809f9a3c1345",
       "width": 486,
@@ -58,7 +64,18 @@
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pox_i",
+          "type": "string",
+          "value": "103"
+        },
+        {
+          "name": "poy_i",
+          "type": "string",
+          "value": "181"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -81,7 +98,7 @@
       "customSize": true,
       "height": 108,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "pinoTop",
       "persistentUuid": "ac3e3c70-2380-4186-b2c1-3a324e6dacff",
       "width": 51,
@@ -95,14 +112,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 805,
-      "layer": "",
-      "locked": true,
+      "height": 2974,
+      "layer": "block",
+      "locked": false,
       "name": "blockNanioPonto0",
       "persistentUuid": "27c34e45-4962-47a0-a471-d42d495daec1",
-      "width": 323,
-      "x": -220,
-      "y": 44,
+      "width": 1262,
+      "x": -508,
+      "y": 377,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,15 +128,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 215,
-      "layer": "",
-      "locked": true,
-      "name": "blockNanioTop",
-      "persistentUuid": "a27906ab-90fa-4fc3-bc50-4aed2d95eeab",
-      "width": 1824,
-      "x": -226,
-      "y": -34,
-      "zOrder": 7,
+      "height": 1352,
+      "layer": "block",
+      "locked": false,
+      "name": "blockNanioPonto0",
+      "persistentUuid": "c99a67de-eb7a-42bc-871b-addcc4b51a81",
+      "width": 4091,
+      "x": 914,
+      "y": -463.3000183105469,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -127,15 +144,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 276,
-      "layer": "",
-      "locked": true,
-      "name": "blockNanioBot",
-      "persistentUuid": "71163f9f-f48c-4add-811b-1ce24ae36f3f",
-      "width": 1952,
-      "x": -195,
-      "y": 732,
-      "zOrder": 8,
+      "height": 2938,
+      "layer": "block",
+      "locked": false,
+      "name": "blockNanioPonto0",
+      "persistentUuid": "691d041c-d858-447e-b53d-4035484cb584",
+      "width": 1262,
+      "x": 2219,
+      "y": 362,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -143,15 +160,31 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1092,
+      "height": 1068,
+      "layer": "block",
+      "locked": false,
+      "name": "blockNanioPonto0",
+      "persistentUuid": "0f052ff5-0edb-4065-a097-46834356268b",
+      "width": 4080,
+      "x": 836,
+      "y": 1291,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 56,
       "layer": "",
       "locked": false,
-      "name": "blockNanioPonto90",
-      "persistentUuid": "fe17d0f7-6906-41aa-a781-1de6b0440a3f",
-      "width": 563,
-      "x": 1569,
-      "y": -22,
-      "zOrder": 9,
+      "name": "po",
+      "persistentUuid": "f43d49ac-8173-458b-adcc-c4fa18e41543",
+      "width": 891,
+      "x": 342,
+      "y": 66,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -164,7 +197,15 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": false,
+          "name": "Platform",
+          "platformType": "Jumpthru",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -248,7 +289,9 @@
           "type": "DraggableBehavior::Draggable"
         },
         {
-          "acceleration": 1500,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 0,
           "canGrabPlatforms": false,
           "deceleration": 0,
           "gravity": 0,
@@ -258,10 +301,8 @@
           "ladderClimbingSpeed": 0,
           "maxFallingSpeed": 0,
           "maxSpeed": 0,
-          "name": "PlatformerObject",
           "roundCoordinates": false,
           "slopeMaxAngle": 0,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "xGrabTolerance": 0,
           "yGrabOffset": 0
         }
@@ -338,147 +379,6 @@
       ]
     },
     {
-      "name": "blockNanioTop",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "blockNanioPonto0",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "blockNanioPonto0-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "blockNanioBot",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "blockNanioPonto0",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "blockNanioPonto0-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "blockNanioPonto90",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "blockNanioPonto0",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "blockNanioPonto0-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "blockNanioPonto0",
       "tags": "",
       "type": "Sprite",
@@ -486,10 +386,10 @@
       "variables": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -508,8 +408,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33,
+                    "y": 33.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -524,9 +424,255 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "po",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Fix cursor fora da tela",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "blockNanioPonto0",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "tocou",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "po",
+                "=",
+                "ToString(MouseX())"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "blockNanioPonto0",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "tocou",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "tocou",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "po",
+                "=",
+                "\"tocou\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseX"
+              },
+              "parameters": [
+                "",
+                ">=",
+                "120",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseX"
+              },
+              "parameters": [
+                "",
+                "<=",
+                "1450",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 0,
@@ -557,6 +703,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "mold",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6022704,
+      "ambientLightColorR": -2147483616,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "block",
       "visibility": false,
       "cameras": [],
       "effects": []

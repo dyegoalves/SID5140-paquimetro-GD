@@ -20,7 +20,7 @@
     "author": "Dyego Alves",
     "windowWidth": 1410,
     "windowHeight": 1012,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\pacqui",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -108,30 +108,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "baseRegua.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "baseRegua.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "nanio.png",
         "kind": "image",
         "metadata": "",
         "name": "nanio.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "moldura2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "moldura2.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -173,7 +155,16 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/draggableslidercontrol"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
