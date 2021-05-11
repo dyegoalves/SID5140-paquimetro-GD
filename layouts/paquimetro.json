@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.37000000000000094
+    "zoomFactor": 0.07000000000000002
   },
   "objectsGroups": [],
   "variables": [
@@ -31,20 +31,25 @@
       "name": "tocou",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "valormed",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "height": 622,
+      "customSize": false,
+      "height": 2144,
       "layer": "",
       "locked": false,
       "name": "baseReguaPac",
       "persistentUuid": "abbb250c-2fef-4759-b339-621c11b46b67",
-      "width": 1320,
-      "x": 82,
-      "y": 171,
+      "width": 4300,
+      "x": 338,
+      "y": 460,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -53,14 +58,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 551,
+      "height": 1894,
       "layer": "",
       "locked": false,
       "name": "nanio",
       "persistentUuid": "24f417d0-1292-4dbf-8b68-809f9a3c1345",
-      "width": 486,
-      "x": 103,
-      "y": 181,
+      "width": 1587,
+      "x": 905,
+      "y": 1289,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,14 +85,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1000,
+      "height": 2861,
       "layer": "mold",
       "locked": false,
       "name": "Moldura",
       "persistentUuid": "52b3c789-98dc-4e16-8e23-45b47ec2ecbd",
-      "width": 1400,
-      "x": 6,
-      "y": 6,
+      "width": 4977,
+      "x": 11,
+      "y": 17,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -96,14 +101,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 108,
+      "height": 370,
       "layer": "",
       "locked": false,
       "name": "pinoTop",
       "persistentUuid": "ac3e3c70-2380-4186-b2c1-3a324e6dacff",
-      "width": 51,
-      "x": 150,
-      "y": 181,
+      "width": 163,
+      "x": 564,
+      "y": 496,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -112,14 +117,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 2974,
+      "height": 4331,
       "layer": "block",
-      "locked": false,
+      "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "27c34e45-4962-47a0-a471-d42d495daec1",
       "width": 1262,
-      "x": -508,
-      "y": 377,
+      "x": -203,
+      "y": 1584,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -130,12 +135,12 @@
       "customSize": true,
       "height": 1352,
       "layer": "block",
-      "locked": false,
+      "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "c99a67de-eb7a-42bc-871b-addcc4b51a81",
-      "width": 4091,
-      "x": 914,
-      "y": -463.3000183105469,
+      "width": 6131,
+      "x": 2469,
+      "y": -149,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,12 +151,12 @@
       "customSize": true,
       "height": 2938,
       "layer": "block",
-      "locked": false,
+      "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "691d041c-d858-447e-b53d-4035484cb584",
       "width": 1262,
-      "x": 2219,
-      "y": 362,
+      "x": 5861.5,
+      "y": 1518,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -162,12 +167,12 @@
       "customSize": true,
       "height": 1068,
       "layer": "block",
-      "locked": false,
+      "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "0f052ff5-0edb-4065-a097-46834356268b",
-      "width": 4080,
-      "x": 836,
-      "y": 1291,
+      "width": 8440,
+      "x": 2226,
+      "y": 2949,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -175,16 +180,155 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 56,
-      "layer": "",
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
       "locked": false,
-      "name": "po",
-      "persistentUuid": "f43d49ac-8173-458b-adcc-c4fa18e41543",
-      "width": 891,
-      "x": 342,
-      "y": 66,
-      "zOrder": 7,
+      "name": "medida",
+      "persistentUuid": "23cd49d0-d9a7-4ebf-8420-cbf1eec64e9f",
+      "width": 0,
+      "x": 3825,
+      "y": 1809,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
+      "locked": false,
+      "name": "mmtxt",
+      "persistentUuid": "54c0e3f5-1bf3-4577-a68c-34b1d068d28f",
+      "width": 0,
+      "x": 3759,
+      "y": 2098,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
+      "locked": false,
+      "name": "pdtxt",
+      "persistentUuid": "976cf415-def6-4cb9-942c-4a58532a6020",
+      "width": 0,
+      "x": 3574,
+      "y": 2311,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
+      "locked": false,
+      "name": "fracdptxt",
+      "persistentUuid": "f6c4b467-c285-4609-9f80-e9d31c5903bc",
+      "width": 0,
+      "x": 3513,
+      "y": 2524,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 88,
+      "layer": "bt",
+      "locked": false,
+      "name": "vmmtxt",
+      "persistentUuid": "e4be894d-e747-4968-8429-0428dead9304",
+      "width": 400,
+      "x": 4257,
+      "y": 2111,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 300,
+      "layer": "bt",
+      "locked": false,
+      "name": "btzoom",
+      "persistentUuid": "cc3b311d-2446-4aa0-82fe-4439ae1b6fca",
+      "width": 300,
+      "x": 3699,
+      "y": 210,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "onoroff",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "countbt",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
+      "locked": false,
+      "name": "zoomtxt",
+      "persistentUuid": "33b5ecaf-4763-4ebf-a64d-38132f07e69f",
+      "width": 0,
+      "x": 3757,
+      "y": 446,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 300,
+      "layer": "bt",
+      "locked": false,
+      "name": "btreduzir",
+      "persistentUuid": "97f71902-59f6-4acb-8f2b-a058cd86e9b5",
+      "width": 300,
+      "x": 4173,
+      "y": 210,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
+      "locked": false,
+      "name": "reduzitxt",
+      "persistentUuid": "bc3cbb81-cc63-4065-97dd-387122041eed",
+      "width": 0,
+      "x": 4239,
+      "y": 443,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -199,10 +343,10 @@
       "variables": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "Jumpthru",
           "yGrabOffset": 0
         }
       ],
@@ -289,20 +433,20 @@
           "type": "DraggableBehavior::Draggable"
         },
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 0,
+          "acceleration": 2000,
           "canGrabPlatforms": false,
-          "deceleration": 0,
+          "deceleration": 2000,
           "gravity": 0,
-          "ignoreDefaultControls": true,
+          "ignoreDefaultControls": false,
           "jumpSpeed": 0,
           "jumpSustainTime": 0,
           "ladderClimbingSpeed": 0,
           "maxFallingSpeed": 0,
-          "maxSpeed": 0,
-          "roundCoordinates": false,
+          "maxSpeed": 10,
+          "name": "PlatformerObject",
+          "roundCoordinates": true,
           "slopeMaxAngle": 0,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "xGrabTolerance": 0,
           "yGrabOffset": 0
         }
@@ -318,18 +462,18 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "nanio.png",
+                  "image": "nanio3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 800
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 737,
+                    "y": 939.5
                   },
                   "customCollisionMask": []
                 }
@@ -428,7 +572,7 @@
     {
       "bold": false,
       "italic": false,
-      "name": "po",
+      "name": "X",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -443,9 +587,499 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "vmmtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 80,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "mmtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Milimetros:",
+      "font": "",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Y",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "fracdptxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Fração da Polegada:",
+      "font": "",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "pdtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Polegada Decimal:",
+      "font": "",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "medida",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Medidas",
+      "font": "",
+      "characterSize": 200,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "btreduzir",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.14499999582767487,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.14499999582767487,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt32.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "btzoom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.14499999582767487,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.14499999582767487,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt32.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "reduzitxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Reduzir",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "zoomtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Ampliar",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -495,9 +1129,21 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "po",
+                "X",
                 "=",
-                "ToString(MouseX())"
+                "\"debugX:\" + ToString(MouseX())"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Y",
+                "=",
+                "\"debugY:\" + ToString(MouseY())"
               ],
               "subInstructions": []
             },
@@ -510,6 +1156,42 @@
                 "nanio",
                 "Draggable",
                 "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseX"
+              },
+              "parameters": [
+                "",
+                ">=",
+                "4900",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "tocou",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -576,7 +1258,7 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "po",
+                "X",
                 "=",
                 "\"tocou\""
               ],
@@ -646,7 +1328,7 @@
               "parameters": [
                 "",
                 "<=",
-                "1450",
+                "5000",
                 "",
                 ""
               ],
@@ -671,6 +1353,413 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "INCLUI VALOR DO MELIMTRO MEDIDO PELO PAQUIMETRO ",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "valormed",
+                "=",
+                "SubStr((ToString((nanio.PointX(\"\") - 905.46875)/35.7100)),0 ,4) + \" mm\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                "<",
+                "9.999"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "vmmtxt",
+                "=",
+                "SubStr((ToString((nanio.PointX(\"\") - 905.46875)/35.7100)),0 ,4) + \" mm\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                "<",
+                "9.999"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "vmmtxt",
+                "=",
+                "SubStr((ToString((nanio.PointX(\"\") - 905.46875)/35.7100)),0 ,5) + \" mm\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                "<=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "vmmtxt",
+                "=",
+                "\"0 mm\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "BOTAO ZOOM NA REGUA",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btreduzir",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "btzoom",
+                "countbt",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Moldura",
+                "no",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btreduzir",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btzoom",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btzoom",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "nanio",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "3.8",
+                "",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "btzoom",
+                "onoroff"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btzoom",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btreduzir",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "btzoom",
+                "countbt",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "gg",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
@@ -703,7 +1792,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "mold",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -714,7 +1803,18 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "block",
-      "visibility": false,
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6022704,
+      "ambientLightColorR": 100663296,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "bt",
+      "visibility": true,
       "cameras": [],
       "effects": []
     }

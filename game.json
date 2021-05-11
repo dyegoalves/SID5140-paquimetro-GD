@@ -18,8 +18,8 @@
     "version": "1.0.0",
     "name": "paquimetro",
     "author": "Dyego Alves",
-    "windowWidth": 1410,
-    "windowHeight": 1012,
+    "windowWidth": 5000,
+    "windowHeight": 2900,
     "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\pacqui",
     "maxFPS": 60,
     "minFPS": 20,
@@ -108,15 +108,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "nanio.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "nanio.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "baseRegua-1.png",
         "kind": "image",
         "metadata": "",
@@ -141,6 +132,78 @@
         "name": "blockNanioPonto0-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nanio3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nanio3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt33.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -155,16 +218,7 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/draggableslidercontrol"
-    }
-  ],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
