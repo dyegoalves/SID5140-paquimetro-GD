@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.13000000000000012
+    "zoomFactor": 0.3900000000000002
   },
   "objectsGroups": [],
   "variables": [
@@ -196,14 +196,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 502,
       "layer": "bt",
       "locked": false,
       "name": "mmtxt",
       "persistentUuid": "54c0e3f5-1bf3-4577-a68c-34b1d068d28f",
-      "width": 0,
-      "x": 3759,
+      "width": 427,
+      "x": 3856,
       "y": 2098,
       "zOrder": 10,
       "numberProperties": [],
@@ -219,8 +219,8 @@
       "name": "pdtxt",
       "persistentUuid": "976cf415-def6-4cb9-942c-4a58532a6020",
       "width": 0,
-      "x": 3574,
-      "y": 2311,
+      "x": 3570,
+      "y": 2313,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -228,15 +228,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 92,
       "layer": "bt",
       "locked": false,
       "name": "fracdptxt",
       "persistentUuid": "f6c4b467-c285-4609-9f80-e9d31c5903bc",
-      "width": 0,
-      "x": 3513,
-      "y": 2524,
+      "width": 794,
+      "x": 3502,
+      "y": 2526,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -250,9 +250,9 @@
       "locked": false,
       "name": "vmmtxt",
       "persistentUuid": "e4be894d-e747-4968-8429-0428dead9304",
-      "width": 400,
-      "x": 4257,
-      "y": 2111,
+      "width": 449,
+      "x": 4310,
+      "y": 2094,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -680,7 +680,7 @@
       "behaviors": [],
       "string": "0",
       "font": "",
-      "characterSize": 80,
+      "characterSize": 90,
       "color": {
         "b": 74,
         "g": 74,
@@ -2312,6 +2312,18 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable",
+                "no"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -2367,6 +2379,18 @@
                 "esquerda",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable",
+                "no"
               ],
               "subInstructions": []
             }
