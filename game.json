@@ -267,6 +267,15 @@
         "name": "btdir3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "reguaBaseAtras.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "reguaBaseAtras.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
