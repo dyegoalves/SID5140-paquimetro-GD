@@ -204,6 +204,69 @@
         "name": "fundoBt33.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBt34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBt34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btleft12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btleft12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btleft22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btleft22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btleft32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btleft32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btdir1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btdir1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btdir2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btdir2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btdir3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btdir3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
