@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.0300000000000001
+    "zoomFactor": 0.05000000000000007
   },
   "objectsGroups": [
     {
@@ -33,7 +33,7 @@
           "name": "nanio"
         },
         {
-          "name": "reguaProf"
+          "name": "PONTC"
         }
       ]
     },
@@ -65,20 +65,25 @@
       "name": "valormed",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "pontocv",
+      "type": "number",
+      "value": 295
     }
   ],
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 2144,
+      "customSize": true,
+      "height": 660,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "baseReguaPac",
       "persistentUuid": "abbb250c-2fef-4759-b339-621c11b46b67",
-      "width": 4300,
-      "x": 338,
-      "y": 460,
+      "width": 1580,
+      "x": 107,
+      "y": 325,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -98,25 +103,25 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1894,
+      "height": 813,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "nanio",
       "persistentUuid": "24f417d0-1292-4dbf-8b68-809f9a3c1345",
-      "width": 1587,
-      "x": 905,
-      "y": 1289,
+      "width": 648.3899536132812,
+      "x": 313,
+      "y": 512,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "pox_i",
+          "name": "poxi",
           "type": "string",
           "value": "905"
         },
         {
-          "name": "poy_i",
+          "name": "poyi",
           "type": "string",
           "value": "1289"
         }
@@ -125,15 +130,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 2898,
-      "layer": "mold",
-      "locked": true,
+      "height": 1078,
+      "layer": "bt",
+      "locked": false,
       "name": "Moldura",
       "persistentUuid": "52b3c789-98dc-4e16-8e23-45b47ec2ecbd",
-      "width": 5001,
+      "width": 1920,
       "x": 0,
-      "y": 1,
-      "zOrder": 4,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -141,14 +146,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 370,
+      "height": 163,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "pinoTop",
       "persistentUuid": "ac3e3c70-2380-4186-b2c1-3a324e6dacff",
-      "width": 163,
-      "x": 564,
-      "y": 496,
+      "width": 73,
+      "x": 211,
+      "y": 253,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -168,14 +173,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 4331,
+      "height": 2141,
       "layer": "block",
       "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "27c34e45-4962-47a0-a471-d42d495daec1",
       "width": 1262,
-      "x": -203,
-      "y": 1584,
+      "x": -500.95001220703125,
+      "y": 679,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,9 +194,9 @@
       "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "c99a67de-eb7a-42bc-871b-addcc4b51a81",
-      "width": 6131,
-      "x": 2469,
-      "y": -149,
+      "width": 2898,
+      "x": 947,
+      "y": -471.7003173828125,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -200,14 +205,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 2938,
+      "height": 2516,
       "layer": "block",
       "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "691d041c-d858-447e-b53d-4035484cb584",
-      "width": 1262,
-      "x": 5861.5,
-      "y": 1518,
+      "width": 1784,
+      "x": 2989,
+      "y": 786,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -216,14 +221,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1068,
+      "height": 1259,
       "layer": "block",
       "locked": true,
       "name": "blockNanioPonto0",
       "persistentUuid": "0f052ff5-0edb-4065-a097-46834356268b",
-      "width": 8440,
-      "x": 2226,
-      "y": 2949,
+      "width": 2722,
+      "x": 846,
+      "y": 1644.9000244140625,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,15 +236,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 71,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "medida",
       "persistentUuid": "23cd49d0-d9a7-4ebf-8420-cbf1eec64e9f",
-      "width": 0,
-      "x": 3825,
-      "y": 1809,
+      "width": 261,
+      "x": 1470,
+      "y": 675,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -248,14 +253,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 502,
+      "height": 34,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "mmtxt",
       "persistentUuid": "54c0e3f5-1bf3-4577-a68c-34b1d068d28f",
-      "width": 427,
-      "x": 3856,
-      "y": 2098,
+      "width": 171,
+      "x": 1457,
+      "y": 770,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -266,12 +271,12 @@
       "customSize": false,
       "height": 0,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "pdtxt",
       "persistentUuid": "976cf415-def6-4cb9-942c-4a58532a6020",
       "width": 0,
-      "x": 3570,
-      "y": 2313,
+      "x": 1362,
+      "y": 846,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -280,14 +285,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 92,
+      "height": 36,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "fracdptxt",
       "persistentUuid": "f6c4b467-c285-4609-9f80-e9d31c5903bc",
-      "width": 794,
-      "x": 3502,
-      "y": 2526,
+      "width": 306,
+      "x": 1336,
+      "y": 922,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -296,14 +301,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 88,
+      "height": 41,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "vmmtxt",
       "persistentUuid": "e4be894d-e747-4968-8429-0428dead9304",
-      "width": 449,
-      "x": 4310,
-      "y": 2094,
+      "width": 180,
+      "x": 1643,
+      "y": 764,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -312,14 +317,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 100,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "btzoom",
       "persistentUuid": "cc3b311d-2446-4aa0-82fe-4439ae1b6fca",
-      "width": 300,
-      "x": 3429,
-      "y": 210,
+      "width": 100,
+      "x": 1360,
+      "y": 80,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -341,12 +346,12 @@
       "customSize": false,
       "height": 0,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "zoomtxt",
       "persistentUuid": "33b5ecaf-4763-4ebf-a64d-38132f07e69f",
       "width": 0,
-      "x": 3485,
-      "y": 443,
+      "x": 1381,
+      "y": 160,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -355,14 +360,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 100,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "btreduzir",
       "persistentUuid": "97f71902-59f6-4acb-8f2b-a058cd86e9b5",
-      "width": 300,
-      "x": 3899,
-      "y": 210,
+      "width": 100,
+      "x": 1516,
+      "y": 80,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -371,14 +376,14 @@
     {
       "angle": 0,
       "customSize": false,
-      "height": 0,
+      "height": 100,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "reduzitxt",
       "persistentUuid": "bc3cbb81-cc63-4065-97dd-387122041eed",
-      "width": 0,
-      "x": 3961,
-      "y": 443,
+      "width": 100,
+      "x": 1540,
+      "y": 160,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -387,14 +392,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 100,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "Ajuda",
       "persistentUuid": "e4b1bdc0-3e14-4abe-a2c4-886dcbe2d408",
-      "width": 300,
-      "x": 4354,
-      "y": 210,
+      "width": 100,
+      "x": 1670,
+      "y": 80,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -405,12 +410,12 @@
       "customSize": false,
       "height": 0,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "ajudatxt",
       "persistentUuid": "b1295bc4-f460-4bb7-acde-896d6d3b1498",
       "width": 0,
-      "x": 4415,
-      "y": 443,
+      "x": 1698,
+      "y": 160,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -419,14 +424,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 100,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "direta",
       "persistentUuid": "e2b7d634-7037-4ce5-b862-87ae11eedf71",
-      "width": 300,
-      "x": 2252,
-      "y": 2260,
+      "width": 100,
+      "x": 848,
+      "y": 860,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -435,14 +440,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 100,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "esquerda",
       "persistentUuid": "f3f87b9f-53d9-48f1-a1e3-3dd24f3cacc9",
-      "width": 300,
-      "x": 1724,
-      "y": 2260,
+      "width": 100,
+      "x": 661,
+      "y": 860,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -450,15 +455,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 37,
       "layer": "bt",
-      "locked": true,
+      "locked": false,
       "name": "controleRL",
       "persistentUuid": "b576c425-749c-45d6-bbcc-79154acaa91a",
-      "width": 0,
-      "x": 777,
-      "y": 2600,
+      "width": 766,
+      "x": 445,
+      "y": 972,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -467,14 +472,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 80,
+      "height": 37,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "reguaProf",
       "persistentUuid": "513c390c-0281-45d2-a2f4-8516451e395e",
-      "width": 2877,
-      "x": 1705,
-      "y": 1038,
+      "width": 1481,
+      "x": 313.0400085449219,
+      "y": 408,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -482,14 +487,30 @@
         {
           "name": "poxi",
           "type": "string",
-          "value": "1705"
+          "value": "313,04"
         },
         {
           "name": "poyi",
           "type": "string",
-          "value": "1038"
+          "value": "408"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PONTC",
+      "persistentUuid": "c0642c58-635b-41eb-bca9-b572a0b440c9",
+      "width": 0,
+      "x": 633,
+      "y": 428,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -499,15 +520,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": false,
-          "platformType": "Jumpthru",
-          "yGrabOffset": 0
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -515,11 +528,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "moldura.png",
+                  "image": "moldura1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -558,7 +571,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "baseRegua-1.png",
+                  "image": "baseRegua2k2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -593,17 +606,17 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 2000,
+          "acceleration": 80,
           "canGrabPlatforms": false,
-          "deceleration": 2000,
+          "deceleration": 5000,
           "gravity": 0,
-          "ignoreDefaultControls": false,
+          "ignoreDefaultControls": true,
+          "maxSpeed": 3,
+          "roundCoordinates": false,
           "jumpSpeed": 0,
           "jumpSustainTime": 0,
           "ladderClimbingSpeed": 0,
           "maxFallingSpeed": 0,
-          "maxSpeed": 10,
-          "roundCoordinates": true,
           "slopeMaxAngle": 0,
           "xGrabTolerance": 0,
           "yGrabOffset": 0
@@ -616,7 +629,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -625,7 +638,7 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 500,
-                    "y": 800
+                    "y": 796
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -663,8 +676,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 225,
+                    "y": 532
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -728,7 +741,7 @@
       ]
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "X",
       "smoothed": true,
@@ -739,7 +752,7 @@
       "behaviors": [],
       "string": "0",
       "font": "",
-      "characterSize": 50,
+      "characterSize": 25,
       "color": {
         "b": 0,
         "g": 0,
@@ -758,7 +771,7 @@
       "behaviors": [],
       "string": "0",
       "font": "",
-      "characterSize": 90,
+      "characterSize": 35,
       "color": {
         "b": 74,
         "g": 74,
@@ -777,11 +790,11 @@
       "behaviors": [],
       "string": "Milimetros:",
       "font": "",
-      "characterSize": 80,
+      "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 74,
+        "g": 74,
+        "r": 74
       }
     },
     {
@@ -815,11 +828,11 @@
       "behaviors": [],
       "string": "Fração da Polegada:",
       "font": "",
-      "characterSize": 80,
+      "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 74,
+        "g": 74,
+        "r": 74
       }
     },
     {
@@ -834,11 +847,11 @@
       "behaviors": [],
       "string": "Polegada Decimal:",
       "font": "",
-      "characterSize": 80,
+      "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 74,
+        "g": 74,
+        "r": 74
       }
     },
     {
@@ -853,7 +866,7 @@
       "behaviors": [],
       "string": "Medidas",
       "font": "",
-      "characterSize": 200,
+      "characterSize": 60,
       "color": {
         "b": 0,
         "g": 0,
@@ -1571,7 +1584,7 @@
       "behaviors": [],
       "string": "Reduzir",
       "font": "",
-      "characterSize": 50,
+      "characterSize": 15,
       "color": {
         "b": 0,
         "g": 0,
@@ -1590,7 +1603,7 @@
       "behaviors": [],
       "string": "Ajuda ?",
       "font": "",
-      "characterSize": 50,
+      "characterSize": 15,
       "color": {
         "b": 0,
         "g": 0,
@@ -1609,11 +1622,11 @@
       "behaviors": [],
       "string": "Controle de Precisão do Nônio ou Vernier  [ Direita e Esquerda ] ",
       "font": "",
-      "characterSize": 80,
+      "characterSize": 25,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 74,
+        "g": 74,
+        "r": 74
       }
     },
     {
@@ -1628,7 +1641,7 @@
       "behaviors": [],
       "string": "Ampliar",
       "font": "",
-      "characterSize": 50,
+      "characterSize": 15,
       "color": {
         "b": 0,
         "g": 0,
@@ -1649,12 +1662,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "reguaBaseAtras",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1678,16 +1691,66 @@
           ]
         }
       ]
+    },
+    {
+      "name": "PONTC",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "behaviors": [],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 187,
+        "g": 187,
+        "r": 223
+      },
+      "outlineColor": {
+        "b": 41,
+        "g": 41,
+        "r": 172
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
     }
   ],
   "events": [
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "folded": true,
+      "name": "UPDATE FRAMERATE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::Acceleration"
+              },
+              "parameters": [
+                "nanio",
+                "PlatformerObject",
+                "=",
+                "80"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -1695,8 +1758,8 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
-      "name": "Fix cursor fora da tela",
+      "folded": true,
+      "name": "FIX CURSOR FORA DA TELA",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1735,30 +1798,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "X",
-                "=",
-                "\"debugX:\" + ToString(MouseX())"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Y",
-                "=",
-                "\"debugY:\" + ToString(MouseY())"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -1784,7 +1823,7 @@
               "parameters": [
                 "",
                 ">=",
-                "4900",
+                "1902",
                 "",
                 ""
               ],
@@ -1861,18 +1900,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "X",
-                "=",
-                "\"tocou\""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -1937,7 +1964,7 @@
               "parameters": [
                 "",
                 "<=",
-                "5000",
+                "1901",
                 "",
                 ""
               ],
@@ -1969,7 +1996,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "INCLUI VALOR DO MELIMTRO MEDIDO PELO PAQUIMETRO ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1988,7 +2015,87 @@
               "parameters": [
                 "valormed",
                 "=",
-                "SubStr((ToString((nanio.PointX(\"\") - 905.46875)/35.7100)),0 ,4) + \" mm\""
+                "SubStr(ToString(nanio.X()), 0,5)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                ">=",
+                "313.04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                "<",
+                "458.60"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "vmmtxt",
+                "=",
+                "SubStr(ToString((nanio.X() - 313.04 )/ 14.558),0,4) + \" mm\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                ">=",
+                "458.61"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "vmmtxt",
+                "=",
+                "SubStr(ToString((nanio.X() - 313.04 )/ 14.558),0,5) + \" mm\""
               ],
               "subInstructions": []
             }
@@ -2008,7 +2115,7 @@
               "parameters": [
                 "valormed",
                 "<",
-                "9.999"
+                "313.04"
               ],
               "subInstructions": []
             }
@@ -2022,75 +2129,7 @@
               "parameters": [
                 "vmmtxt",
                 "=",
-                "SubStr((ToString((nanio.PointX(\"\") - 905.46875)/35.7100)),0 ,4) + \" mm\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "valormed",
-                "<",
-                "9.999"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "vmmtxt",
-                "=",
-                "SubStr((ToString((nanio.PointX(\"\") - 905.46875)/35.7100)),0 ,5) + \" mm\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "valormed",
-                "<=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "vmmtxt",
-                "=",
-                "\"0 mm\""
+                "\"0.00 mm\""
               ],
               "subInstructions": []
             }
@@ -2106,7 +2145,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "BOTAO ZOOM NA REGUA",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2217,11 +2256,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "Moldura",
-                ""
+                "nanio",
+                "Draggable",
+                "no"
               ],
               "subInstructions": []
             }
@@ -2274,7 +2314,7 @@
               },
               "parameters": [
                 "",
-                "nanio",
+                "PONTC",
                 "yes",
                 "",
                 ""
@@ -2288,7 +2328,7 @@
               },
               "parameters": [
                 "",
-                "2.8",
+                "2",
                 "",
                 "0"
               ],
@@ -2302,18 +2342,6 @@
               "parameters": [
                 "btzoom",
                 "onoroff"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "nanio",
-                "Draggable",
-                "no"
               ],
               "subInstructions": []
             },
@@ -2357,10 +2385,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Cache"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "Moldura"
+                "nanio",
+                "Draggable",
+                "no"
               ],
               "subInstructions": []
             }
@@ -2376,7 +2406,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "CONTROLE PRECISAO",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2450,14 +2480,39 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlatformBehavior::Acceleration"
+              },
+              "parameters": [
+                "nanio",
+                "PlatformerObject",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "MettreXY"
               },
               "parameters": [
                 "reguaProf",
                 "=",
-                "nanio.X() + 800",
+                "nanio.X()",
                 "=",
-                "nanio.Y()-250"
+                "nanio.Y() - 103.8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PONTC",
+                "=",
+                "nanio.X()+Variable(pontocv)"
               ],
               "subInstructions": []
             }
@@ -2490,6 +2545,18 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                ">=",
+                "313.04"
               ],
               "subInstructions": []
             }
@@ -2538,9 +2605,34 @@
               "parameters": [
                 "reguaProf",
                 "=",
-                "nanio.X() + 800",
+                "nanio.X()",
                 "=",
-                "nanio.Y()-250"
+                "nanio.Y() - 103.8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::Acceleration"
+              },
+              "parameters": [
+                "nanio",
+                "PlatformerObject",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PONTC",
+                "=",
+                "nanio.X()+Variable(pontocv)"
               ],
               "subInstructions": []
             }
@@ -2555,6 +2647,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -2562,17 +2665,6 @@
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
               ],
               "subInstructions": []
             }
@@ -2586,9 +2678,200 @@
               "parameters": [
                 "reguaProf",
                 "=",
-                "nanio.X() + 800",
+                "nanio.X()",
                 "=",
-                "nanio.Y()-250"
+                "nanio.Y() - 103.8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "SETA MOVE TECLADO",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                ">=",
+                "313.04"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "nanio",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PONTC",
+                "=",
+                "nanio.X()+Variable(pontocv)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "nanio",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PONTC",
+                "=",
+                "nanio.X()+Variable(pontocv)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "nanio",
+                "Draggable"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PONTC",
+                "=",
+                "nanio.X()+Variable(pontocv)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "XTDEVICE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "X",
+                "=",
+                "\"devxt\""
               ],
               "subInstructions": []
             }
@@ -2618,19 +2901,158 @@
           "viewportRight": 1,
           "viewportTop": 0,
           "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
         }
       ],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 1702453580,
-      "ambientLightColorG": 6022704,
-      "ambientLightColorR": 117440512,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "mold",
-      "visibility": true,
-      "cameras": [],
       "effects": []
     },
     {

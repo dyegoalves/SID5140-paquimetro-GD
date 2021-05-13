@@ -18,8 +18,8 @@
     "version": "1.0.0",
     "name": "paquimetro",
     "author": "Dyego Alves",
-    "windowWidth": 5000,
-    "windowHeight": 2900,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\pacqui",
     "maxFPS": 60,
     "minFPS": 20,
@@ -97,33 +97,6 @@
   },
   "resources": {
     "resources": [
-      {
-        "alwaysLoaded": false,
-        "file": "moldura.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "moldura.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "baseRegua-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "baseRegua-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "pinotop.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "pinotop.png",
-        "smoothed": true,
-        "userAdded": true
-      },
       {
         "alwaysLoaded": false,
         "file": "blockNanioPonto0-1.png",
@@ -270,10 +243,37 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "moldura1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moldura1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "reguaBaseAtras.png",
         "kind": "image",
         "metadata": "",
         "name": "reguaBaseAtras.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pinotop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pinotop.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "baseRegua2k2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "baseRegua2k2.png",
         "smoothed": true,
         "userAdded": false
       }
