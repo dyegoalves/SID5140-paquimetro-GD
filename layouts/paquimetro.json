@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.05000000000000007
+    "zoomFactor": 0.5300000000000002
   },
   "objectsGroups": [
     {
@@ -70,6 +70,41 @@
       "name": "pontocv",
       "type": "number",
       "value": 295
+    },
+    {
+      "name": "polc",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "polm",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "poldef",
+      "type": "number",
+      "value": 25.4
+    },
+    {
+      "name": "polvmed",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "numerador",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "denominador",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "polegadecimalV",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -136,7 +171,7 @@
       "name": "Moldura",
       "persistentUuid": "52b3c789-98dc-4e16-8e23-45b47ec2ecbd",
       "width": 1920,
-      "x": 0,
+      "x": 1,
       "y": 0,
       "zOrder": 2,
       "numberProperties": [],
@@ -259,7 +294,7 @@
       "name": "mmtxt",
       "persistentUuid": "54c0e3f5-1bf3-4577-a68c-34b1d068d28f",
       "width": 171,
-      "x": 1457,
+      "x": 1466,
       "y": 770,
       "zOrder": 10,
       "numberProperties": [],
@@ -276,7 +311,7 @@
       "persistentUuid": "976cf415-def6-4cb9-942c-4a58532a6020",
       "width": 0,
       "x": 1362,
-      "y": 846,
+      "y": 839,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -307,8 +342,8 @@
       "name": "vmmtxt",
       "persistentUuid": "e4be894d-e747-4968-8429-0428dead9304",
       "width": 180,
-      "x": 1643,
-      "y": 764,
+      "x": 1644,
+      "y": 768,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -424,14 +459,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 150,
       "layer": "bt",
       "locked": false,
       "name": "direta",
       "persistentUuid": "e2b7d634-7037-4ce5-b862-87ae11eedf71",
-      "width": 100,
-      "x": 848,
-      "y": 860,
+      "width": 150,
+      "x": 906,
+      "y": 800,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -440,14 +475,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 150,
       "layer": "bt",
       "locked": false,
       "name": "esquerda",
       "persistentUuid": "f3f87b9f-53d9-48f1-a1e3-3dd24f3cacc9",
-      "width": 100,
-      "x": 661,
-      "y": 860,
+      "width": 150,
+      "x": 640,
+      "y": 800,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -508,6 +543,86 @@
       "x": 633,
       "y": 428,
       "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
+      "locked": false,
+      "name": "polegadaFracionariaVal",
+      "persistentUuid": "477d0d93-3820-428b-b38d-9aa14b806778",
+      "width": 0,
+      "x": 1636,
+      "y": 899,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 39,
+      "layer": "bt",
+      "locked": false,
+      "name": "numeradorVal",
+      "persistentUuid": "3b0bc6f3-9d35-4bb0-b303-adade78c4006",
+      "width": 120,
+      "x": 1704,
+      "y": 903,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "bt",
+      "locked": false,
+      "name": "linhaFR",
+      "persistentUuid": "7d5e8bbd-3033-49df-89e1-6ed732ea85ee",
+      "width": 90,
+      "x": 1689,
+      "y": 918,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 39,
+      "layer": "bt",
+      "locked": false,
+      "name": "denominadorVal",
+      "persistentUuid": "de1bb890-4e56-4c5d-b512-bcd70c24d4f1",
+      "width": 112,
+      "x": 1694,
+      "y": 953,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "bt",
+      "locked": false,
+      "name": "polegadaDecimal",
+      "persistentUuid": "083d3da3-4931-442e-9ec1-97930652308c",
+      "width": 0,
+      "x": 1644,
+      "y": 842,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -741,6 +856,25 @@
       ]
     },
     {
+      "bold": false,
+      "italic": false,
+      "name": "Y",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
       "bold": true,
       "italic": false,
       "name": "X",
@@ -752,7 +886,7 @@
       "behaviors": [],
       "string": "0",
       "font": "",
-      "characterSize": 25,
+      "characterSize": 30,
       "color": {
         "b": 0,
         "g": 0,
@@ -781,6 +915,25 @@
     {
       "bold": true,
       "italic": false,
+      "name": "polegadaFracionariaVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 80,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
       "name": "mmtxt",
       "smoothed": true,
       "tags": "",
@@ -798,9 +951,9 @@
       }
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
-      "name": "Y",
+      "name": "denominadorVal",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -809,11 +962,49 @@
       "behaviors": [],
       "string": "0",
       "font": "",
-      "characterSize": 50,
+      "characterSize": 35,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 232,
+        "g": 9,
+        "r": 51
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "polegadaDecimal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "numeradorVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 232,
+        "g": 9,
+        "r": 51
       }
     },
     {
@@ -1713,6 +1904,45 @@
       },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true
+    },
+    {
+      "name": "linhaFR",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1981,155 +2211,6 @@
                 "nanio",
                 "Draggable",
                 "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": true,
-      "name": "INCLUI VALOR DO MELIMTRO MEDIDO PELO PAQUIMETRO ",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "valormed",
-                "=",
-                "SubStr(ToString(nanio.X()), 0,5)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "valormed",
-                ">=",
-                "313.04"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "valormed",
-                "<",
-                "458.60"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "vmmtxt",
-                "=",
-                "SubStr(ToString((nanio.X() - 313.04 )/ 14.558),0,4) + \" mm\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "valormed",
-                ">=",
-                "458.61"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "vmmtxt",
-                "=",
-                "SubStr(ToString((nanio.X() - 313.04 )/ 14.558),0,5) + \" mm\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "valormed",
-                "<",
-                "313.04"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "vmmtxt",
-                "=",
-                "\"0.00 mm\""
               ],
               "subInstructions": []
             }
@@ -2843,11 +2924,32 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
-      "name": "XTDEVICE",
+      "folded": true,
+      "name": "INCLUI VALOR DO MELIMTRO MEDIDO PELO PAQUIMETRO ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "valormed",
+                "=",
+                "SubStr(ToString(nanio.X()), 0,5)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2856,9 +2958,25 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SystemInfo::IsMobile"
+                "value": "VarScene"
               },
-              "parameters": [],
+              "parameters": [
+                "valormed",
+                ">=",
+                "313.04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                "<",
+                "458.60"
+              ],
               "subInstructions": []
             }
           ],
@@ -2869,9 +2987,77 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "X",
+                "vmmtxt",
                 "=",
-                "\"devxt\""
+                "SubStr(ToString((nanio.X() - 313.04 )/ 14.558),0,4) + \" mm\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                ">=",
+                "458.61"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "vmmtxt",
+                "=",
+                "SubStr(ToString((nanio.X() - 313.04 )/ 14.558),0,5) + \" mm\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                "<",
+                "313.04"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "vmmtxt",
+                "=",
+                "\"0.00 mm\""
               ],
               "subInstructions": []
             }
@@ -2880,6 +3066,544 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "POLEGADA DECIMAL",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polegadecimalV",
+                "=",
+                "ToNumber(SubStr(ToString((nanio.X()-313.04)/14.558),0,5))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "polegadaDecimal",
+                "=",
+                "SubStr(ToString((Variable(polegadecimalV)/25.4)),0,7)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "POLEGADA FRACIONARIA",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polm",
+                "=",
+                "ToNumber(SubStr(ToString(nanio.X()),0,5))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polvmed",
+                "=",
+                "(nanio.X()-313.04)/14.558"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "numerador",
+                "=",
+                "floor(Variable(polvmed)/25.4)*128"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "denominador",
+                "=",
+                "Variable(polvmed)-Variable(polvmed)+128"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "numerador",
+                "<",
+                "128"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polc",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "polc",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "polegadaFracionariaVal",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "numeradorVal",
+                    "=",
+                    "ToString(floor((Variable(polvmed)/25.4)*128)) "
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "denominadorVal",
+                    "=",
+                    "VariableString(denominador)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "numerador",
+                ">=",
+                "128"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "numerador",
+                "<",
+                "256"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polc",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "polc",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "polegadaFracionariaVal",
+                    "=",
+                    "\"1\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "numeradorVal",
+                    "=",
+                    "ToString(floor((Variable(polvmed)/25.4)*128)-128) "
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "denominadorVal",
+                    "=",
+                    "VariableString(denominador)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "numerador",
+                ">=",
+                "256"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "numerador",
+                "<",
+                "384"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polc",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "polc",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "polegadaFracionariaVal",
+                    "=",
+                    "\"2\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "numeradorVal",
+                    "=",
+                    "ToString(floor((Variable(polvmed)/25.4)*128)-256)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "denominadorVal",
+                    "=",
+                    "VariableString(denominador)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "numerador",
+                ">=",
+                "384"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polc",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "polc",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "polegadaFracionariaVal",
+                    "=",
+                    "\"3\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "numeradorVal",
+                    "=",
+                    "ToString(floor((Variable(polvmed)/25.4)*128)-384)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "denominadorVal",
+                    "=",
+                    "VariableString(denominador)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
@@ -3062,7 +3786,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "block",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
