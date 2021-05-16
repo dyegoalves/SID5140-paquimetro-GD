@@ -1,0 +1,24 @@
+{
+  "associatedLayout": "paquimetro",
+  "lastChangeTimeStamp": 0,
+  "name": "simplifica",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "\r\n//Pega o numerador calculado\r\nvar numD = runtimeScene.getVariables().get(\"numD\");\r\nvar numDc = numD.getValue();\r\n\r\n//Pega o numerador calculado\r\nvar numDeo = runtimeScene.getVariables().get(\"denominador\");\r\nvar numDe = numDeo.getValue();\r\n\r\nif(numDc != 0){\r\n    while (numDc % 2 != 1) {\r\n        numDc = numDc / 2;\r\n        numDe = numDe / 2;\r\n    }; // e\r\n    numD.setValue(numDc);\r\n    numDeo.setValue(numDe);\r\n}\r\n\r\n",
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ]
+}

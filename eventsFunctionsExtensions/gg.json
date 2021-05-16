@@ -1,0 +1,119 @@
+{
+  "author": "",
+  "description": "Originally automatically extracted from events of the project",
+  "extensionNamespace": "",
+  "fullName": "GG",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "GG",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "tags": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "ASA",
+      "fullName": "ASASASA",
+      "functionType": "Action",
+      "name": "MyFunction",
+      "private": false,
+      "sentence": "PARAMENTROS _PARAM1_, _PARAM2_",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "polvmed",
+                "=",
+                "(nanio.X()-313.04)/14.558"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "numerador",
+                "=",
+                "floor(Variable(polvmed)/25.4)*128"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "denominador",
+                "=",
+                "Variable(polvmed)-Variable(polvmed)+128"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "nvz",
+                "=",
+                "ToNumber((ToString((Variable(polvmed)/25.4)*128)))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug",
+                "=",
+                "ToString(Variable(nvz))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "",
+          "longDescription": "",
+          "name": "debug",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "",
+          "longDescription": "",
+          "name": "nanio",
+          "optional": false,
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": []
+}

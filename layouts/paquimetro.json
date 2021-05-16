@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5300000000000002
+    "zoomFactor": 0.30999999999999994
   },
   "objectsGroups": [
     {
@@ -105,6 +105,11 @@
       "name": "polegadecimalV",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "numD",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -117,7 +122,7 @@
       "name": "baseReguaPac",
       "persistentUuid": "abbb250c-2fef-4759-b339-621c11b46b67",
       "width": 1580,
-      "x": 107,
+      "x": 106.9000015258789,
       "y": 325,
       "zOrder": 2,
       "numberProperties": [],
@@ -144,7 +149,7 @@
       "name": "nanio",
       "persistentUuid": "24f417d0-1292-4dbf-8b68-809f9a3c1345",
       "width": 648.3899536132812,
-      "x": 313,
+      "x": 313.04998779296875,
       "y": 512,
       "zOrder": 3,
       "numberProperties": [],
@@ -171,8 +176,8 @@
       "name": "Moldura",
       "persistentUuid": "52b3c789-98dc-4e16-8e23-45b47ec2ecbd",
       "width": 1920,
-      "x": 1,
-      "y": 0,
+      "x": -1,
+      "y": 1,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -214,7 +219,7 @@
       "name": "blockNanioPonto0",
       "persistentUuid": "27c34e45-4962-47a0-a471-d42d495daec1",
       "width": 1262,
-      "x": -500.95001220703125,
+      "x": -501.1999816894531,
       "y": 679,
       "zOrder": 6,
       "numberProperties": [],
@@ -278,8 +283,8 @@
       "name": "medida",
       "persistentUuid": "23cd49d0-d9a7-4ebf-8420-cbf1eec64e9f",
       "width": 261,
-      "x": 1470,
-      "y": 675,
+      "x": 1465,
+      "y": 678,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -294,7 +299,7 @@
       "name": "mmtxt",
       "persistentUuid": "54c0e3f5-1bf3-4577-a68c-34b1d068d28f",
       "width": 171,
-      "x": 1466,
+      "x": 1325,
       "y": 770,
       "zOrder": 10,
       "numberProperties": [],
@@ -310,8 +315,8 @@
       "name": "pdtxt",
       "persistentUuid": "976cf415-def6-4cb9-942c-4a58532a6020",
       "width": 0,
-      "x": 1362,
-      "y": 839,
+      "x": 1325,
+      "y": 846,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -326,8 +331,8 @@
       "name": "fracdptxt",
       "persistentUuid": "f6c4b467-c285-4609-9f80-e9d31c5903bc",
       "width": 306,
-      "x": 1336,
-      "y": 922,
+      "x": 1325,
+      "y": 925,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,8 +347,8 @@
       "name": "vmmtxt",
       "persistentUuid": "e4be894d-e747-4968-8429-0428dead9304",
       "width": 180,
-      "x": 1644,
-      "y": 768,
+      "x": 1639,
+      "y": 769,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -556,8 +561,8 @@
       "name": "polegadaFracionariaVal",
       "persistentUuid": "477d0d93-3820-428b-b38d-9aa14b806778",
       "width": 0,
-      "x": 1636,
-      "y": 899,
+      "x": 1631,
+      "y": 902,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -572,8 +577,8 @@
       "name": "numeradorVal",
       "persistentUuid": "3b0bc6f3-9d35-4bb0-b303-adade78c4006",
       "width": 120,
-      "x": 1704,
-      "y": 903,
+      "x": 1699,
+      "y": 909,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -588,8 +593,8 @@
       "name": "linhaFR",
       "persistentUuid": "7d5e8bbd-3033-49df-89e1-6ed732ea85ee",
       "width": 90,
-      "x": 1689,
-      "y": 918,
+      "x": 1684,
+      "y": 921,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -604,8 +609,8 @@
       "name": "denominadorVal",
       "persistentUuid": "de1bb890-4e56-4c5d-b512-bcd70c24d4f1",
       "width": 112,
-      "x": 1694,
-      "y": 953,
+      "x": 1699,
+      "y": 954,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -620,8 +625,8 @@
       "name": "polegadaDecimal",
       "persistentUuid": "083d3da3-4931-442e-9ec1-97930652308c",
       "width": 0,
-      "x": 1644,
-      "y": 842,
+      "x": 1639,
+      "y": 839,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -647,7 +652,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "moldura1.png",
+                  "image": "moldp.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -856,215 +861,6 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "Y",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "X",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "vmmtxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 35,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "polegadaFracionariaVal",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 80,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "mmtxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Milimetros:",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "denominadorVal",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 35,
-      "color": {
-        "b": 232,
-        "g": 9,
-        "r": 51
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "polegadaDecimal",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 35,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "numeradorVal",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 35,
-      "color": {
-        "b": 232,
-        "g": 9,
-        "r": 51
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "fracdptxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Fração da Polegada:",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "pdtxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Polegada Decimal:",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "medida",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Medidas",
-      "font": "",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
       "name": "btreduzir",
       "tags": "",
       "type": "Sprite",
@@ -1209,108 +1005,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "fundoBt22.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "esquerda",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btleft32.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btleft22.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btleft12.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "fundoBt33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1599,6 +1293,108 @@
       ]
     },
     {
+      "name": "esquerda",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btleft32.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btleft22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btleft12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundoBt33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "btzoom",
       "tags": "",
       "type": "Sprite",
@@ -1764,82 +1560,6 @@
       ]
     },
     {
-      "bold": true,
-      "italic": false,
-      "name": "reduzitxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Reduzir",
-      "font": "",
-      "characterSize": 15,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "ajudatxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Ajuda ?",
-      "font": "",
-      "characterSize": 15,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "controleRL",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Controle de Precisão do Nônio ou Vernier  [ Direita e Esquerda ] ",
-      "font": "",
-      "characterSize": 25,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "zoomtxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Ampliar",
-      "font": "",
-      "characterSize": 15,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
       "name": "reguaProf",
       "tags": "",
       "type": "Sprite",
@@ -1923,7 +1643,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1.png",
+                  "image": "linha.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1943,6 +1663,272 @@
           ]
         }
       ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "debug",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "-",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "vmmtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "polegadaFracionariaVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 80,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "mmtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Milimetros:",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "denominadorVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 232,
+        "g": 9,
+        "r": 51
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "polegadaDecimal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "numeradorVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 232,
+        "g": 9,
+        "r": 51
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "fracdptxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Fração da Polegada:",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "pdtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Polegada Decimal:",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "medida",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Medidas",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "reduzitxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Reduzir",
+      "font": "",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "ajudatxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Ajuda ?",
+      "font": "",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "controleRL",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Controle de Precisão do Nônio ou Vernier  [ Direita e Esquerda ] ",
+      "font": "",
+      "characterSize": 25,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "zoomtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Ampliar",
+      "font": "",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -1993,6 +1979,21 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "SE O CURSOR SAIR DA TELA  COM NONIO , PARA O OBJETO",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2925,10 +2926,25 @@
       "creationTime": 0,
       "disabled": false,
       "folded": true,
-      "name": "INCLUI VALOR DO MELIMTRO MEDIDO PELO PAQUIMETRO ",
+      "name": "INCLUI VALOR DO MELIMETRO MEDIDO PELO PAQUIMETRO ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "MEDICAO DE MILIMETROS",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -3081,8 +3097,104 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "MEDICAO DA POLEGADA DECIMAL",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                "<=",
+                "313.04"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "polegadaDecimal",
+                "=",
+                "\"0\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "numeradorVal",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "denominadorVal",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "linhaFR"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                ">",
+                "313.04"
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -3110,6 +3222,197 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "SE MILIMETRO MEDIDO / 25.4 FOR IGUAL A UMA POLEGADA INTEIRA SOME COM POLEGADA FRACIONARIA",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "polegadecimalV",
+                "=",
+                "25.40"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "linhaFR"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "denominadorVal"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "numeradorVal"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "polegadecimalV",
+                "=",
+                "50.80 "
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "linhaFR"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "denominadorVal"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "numeradorVal"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "polegadecimalV",
+                "=",
+                "76.20"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "linhaFR"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "denominadorVal"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "numeradorVal"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "polegadaDecimal",
+                "=",
+                "\"3\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "parameters": []
@@ -3128,21 +3431,24 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "CALCULA O INTEIRO DA POLEGADA [128 => 1] , [256 => 2] , [384 => 3], SERVE COMO CODICAO PARA IF , E CALCULA O DENOMINADOR",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "polm",
-                "=",
-                "ToNumber(SubStr(ToString(nanio.X()),0,5))"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -3185,6 +3491,42 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "CALCULO DA POLEGADA FRACIONADA PARA CADA CONDICAO E INICIA POLEGADA FRACIONADA ZERADA",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "polegadaFracionariaVal",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3196,6 +3538,18 @@
                 "numerador",
                 "<",
                 "128"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "valormed",
+                ">=",
+                "313.04"
               ],
               "subInstructions": []
             }
@@ -3254,7 +3608,7 @@
                   "parameters": [
                     "numeradorVal",
                     "=",
-                    "ToString(floor((Variable(polvmed)/25.4)*128)) "
+                    "ToString(floor((Variable(polvmed)/25.4)*128))  +  \" in\""
                   ],
                   "subInstructions": []
                 },
@@ -3269,15 +3623,200 @@
                     "VariableString(denominador)"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "numD",
+                    "=",
+                    "floor(((Variable(polvmed)/25.4)*128))"
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "linhaFR"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "denominadorVal"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "numeradorVal"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\" "
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "linhaFR",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "DIVISAO PARA FRACAO SIMPLIFICACAO E SETA O VALOR NO NUMERADOR E DENOMINADOR",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "simplifica"
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "VariableString(numD) + \" in\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        "=",
+                        "VariableString(denominador)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
             }
           ]
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3359,7 +3898,7 @@
                   "parameters": [
                     "numeradorVal",
                     "=",
-                    "ToString(floor((Variable(polvmed)/25.4)*128)-128) "
+                    "ToString(floor((Variable(polvmed)/25.4)*128)-128) +  \" in\""
                   ],
                   "subInstructions": []
                 },
@@ -3374,15 +3913,204 @@
                     "VariableString(denominador)"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "numD",
+                    "=",
+                    "floor(((Variable(polvmed)/25.4)*128)-128)"
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "linhaFR"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "denominadorVal"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "numeradorVal"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "polegadaFracionariaVal",
+                        "=",
+                        "\"1 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "linhaFR",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "DIVISAO PARA FRACAO SIMPLIFICACAO E SETA O VALOR NO NUMERADOR E DENOMINADOR",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "simplifica"
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "VariableString(numD) + \" in\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        "=",
+                        "VariableString(denominador)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3462,9 +4190,9 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "numeradorVal",
+                    "denominadorVal",
                     "=",
-                    "ToString(floor((Variable(polvmed)/25.4)*128)-256)"
+                    "VariableString(denominador)"
                   ],
                   "subInstructions": []
                 },
@@ -3474,20 +4202,209 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "denominadorVal",
+                    "numeradorVal",
                     "=",
-                    "VariableString(denominador)"
+                    "ToString(floor((Variable(polvmed)/25.4)*128)-256) +  \" in\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "numD",
+                    "=",
+                    "floor(((Variable(polvmed)/25.4)*128)-256)"
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "linhaFR"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "denominadorVal"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "numeradorVal"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "polegadaFracionariaVal",
+                        "=",
+                        "\"2 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "linhaFR",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "DIVISAO PARA FRACAO SIMPLIFICACAO E SETA O VALOR NO NUMERADOR E DENOMINADOR",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "simplifica"
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "VariableString(numD) + \" in\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        "=",
+                        "VariableString(denominador)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3557,24 +4474,201 @@
                   "parameters": [
                     "numeradorVal",
                     "=",
-                    "ToString(floor((Variable(polvmed)/25.4)*128)-384)"
+                    "ToString(floor((Variable(polvmed)/25.4)*128)-384) +  \" in\""
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "TextObject::String"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
-                    "denominadorVal",
+                    "numD",
                     "=",
-                    "VariableString(denominador)"
+                    "floor(((Variable(polvmed)/25.4)*128)-384)"
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "linhaFR"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "denominadorVal"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "numeradorVal"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "polegadaFracionariaVal",
+                        "=",
+                        "\"3 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "\"0 in\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "linhaFR",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "DIVISAO PARA FRACAO SIMPLIFICACAO E SETA O VALOR NO NUMERADOR E DENOMINADOR",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "simplifica"
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "numeradorVal",
+                        "=",
+                        "VariableString(numD) + \" in\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "denominadorVal",
+                        "=",
+                        "VariableString(denominador)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         }
@@ -3582,28 +4676,72 @@
       "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "name": "CHAMA A TELA AJUDA ",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
     },
     {
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
       "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Ajuda",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"ajuda\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ],
   "layers": [

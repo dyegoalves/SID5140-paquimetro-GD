@@ -1,0 +1,38 @@
+{
+  "associatedLayout": "paquimetro",
+  "lastChangeTimeStamp": 0,
+  "name": "simpFrac",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "infiniteLoopWarning": true,
+      "type": "BuiltinCommonInstructions::While",
+      "whileConditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "nDivisor",
+            "!=",
+            "\"0\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ]
+}
